@@ -1,0 +1,6 @@
+{
+    "azureFunctions.deploySubpath": "src\\Backend\\ClickCounterApi\\bin\\output",
+    "azureFunctions.projectLanguage": "JavaScript",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen"
+}
