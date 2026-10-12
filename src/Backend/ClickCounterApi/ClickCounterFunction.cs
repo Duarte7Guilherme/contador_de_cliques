@@ -87,8 +87,7 @@ namespace ClickCounterApi
             }
 
             var response = req.CreateResponse(HttpStatusCode.OK);
-            response.Headers.Add("Content-Type", "application/json; charset=utf-8");
-            await response.WriteAsJsonAsync(new { clicks = currentClicks });
+            await response.WriteAsJsonAsync(new { count = currentClicks });
             
             return response;
         }
